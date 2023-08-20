@@ -1,0 +1,18 @@
+(footprint "CrossHair" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at -0.3 -8.6 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp a7115ef5-1ab9-4580-acb1-023c933dae54)
+  )
+  (fp_text value "CrossHair" (at 0 1 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2746ceb3-f17c-4efc-8b17-84863c1e50ca)
+  )
+  (fp_line (start -3 0) (end 3 0)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 6de1f0cc-7da9-44f4-95f0-f9f2b59ee034))
+  (fp_line (start 0 -3) (end 0 3)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 7ba17553-3087-4b1e-a942-439cfb740849))
+  (fp_circle (center 0 0) (end 2 0)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp b5c221fe-6dc4-4fbf-ab8f-88034e0e77bd))
+)

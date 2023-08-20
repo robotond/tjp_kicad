@@ -1,0 +1,18 @@
+(footprint "Mouse_bites10" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at -3.4 -10.2 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 9f9d2a69-f2b0-4c8d-9aa5-7fcbf84a2902)
+  )
+  (fp_text value "Mouse_bites10" (at 1.8 13.4 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5605ee02-4c71-4cf0-a6bb-6364ee2995c1)
+  )
+  (pad "" np_thru_hole circle (at -2.5 0) (size 0.6 0.6) (drill 0.6) (layers "F&B.Cu") (tstamp c591732b-c406-449e-b743-ec45fdf4e68d))
+  (pad "" np_thru_hole circle (at -1.5 0) (size 0.6 0.6) (drill 0.6) (layers "F&B.Cu") (tstamp fb3e6665-bbdd-4b09-9cf3-7d05b87155dd))
+  (pad "" np_thru_hole circle (at -0.5 0) (size 0.6 0.6) (drill 0.6) (layers "F&B.Cu") (tstamp 3110c71b-25a8-4eba-a306-5da2dccb71b9))
+  (pad "" np_thru_hole circle (at 0.5 0) (size 0.6 0.6) (drill 0.6) (layers "F&B.Cu") (tstamp 3898997c-abba-47cc-a229-0013242ac571))
+  (pad "" np_thru_hole circle (at 1.5 0) (size 0.6 0.6) (drill 0.6) (layers "F&B.Cu") (tstamp cff60b53-2ea1-4bb0-9c73-080deafee5a8))
+  (pad "" np_thru_hole circle (at 2.5 0) (size 0.6 0.6) (drill 0.6) (layers "F&B.Cu") (tstamp c451c6de-99fa-47cd-9d60-c5c6a5c9ccd3))
+)
