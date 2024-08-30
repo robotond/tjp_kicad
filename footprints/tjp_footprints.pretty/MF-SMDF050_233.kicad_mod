@@ -1,0 +1,247 @@
+(footprint "MF-SMDF050_233"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MF-SMDF Series - PRC Resettable Fuses\n\nSource: http://www.farnell.com/datasheets/716597.pdf")
+	(property "Reference" "F1"
+		(at 4.4 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "57b60f46-b0f5-4da3-aea6-bdbccad29e18")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MF-SMDF"
+		(at -3.225 4.05 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "818207af-1006-4f83-980a-a94aa2806ae4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "MF-SMDF050_233"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78289b1d-1e45-414a-a932-bf1a7bbb8f68")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "344c8af5-b956-4bc9-9037-d050e30d3cd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd70871-4594-4200-b158-cf4c5573f966")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -2.675 -2.4125)
+		(end -1.825 -2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af9f5a58-bd25-4315-a125-015c32c0739e")
+	)
+	(fp_line
+		(start -2.675 -0.7875)
+		(end -2.675 -2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74d5476c-42fc-47f9-a43f-0c20d11ea3b1")
+	)
+	(fp_line
+		(start -2.675 0.8)
+		(end -2.6625 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8607d544-038b-42b8-b792-03c90ae074e0")
+	)
+	(fp_line
+		(start -2.675 2.4125)
+		(end -2.675 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "809db925-4abb-4e10-84f5-9a20bf5daa64")
+	)
+	(fp_line
+		(start -2.6625 -0.7875)
+		(end -2.675 -0.7875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c71abcbb-dd4e-4dac-b7d2-686c71c4789b")
+	)
+	(fp_line
+		(start -1.825 -2.4125)
+		(end 1.825 -2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc27d109-2436-414a-aada-aa477e9bf4b9")
+	)
+	(fp_line
+		(start -1.825 2.4125)
+		(end -2.675 2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0dbce091-6c2b-49e8-9f25-cd53839a21d0")
+	)
+	(fp_line
+		(start -1.825 2.4125)
+		(end -1.825 -2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1dc8040-869b-456e-8390-c99ca2f9bc62")
+	)
+	(fp_line
+		(start 1.825 -2.4125)
+		(end 1.825 2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c234105f-f43f-45a6-b1b5-cbfc2bd6e151")
+	)
+	(fp_line
+		(start 1.825 -2.4125)
+		(end 2.675 -2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8dfb466b-d7bf-4385-925c-7fa5318e7ce2")
+	)
+	(fp_line
+		(start 1.825 2.4125)
+		(end -1.825 2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75e3444f-e529-4e9f-b091-05dafcba64b5")
+	)
+	(fp_line
+		(start 2.675 -2.4125)
+		(end 2.675 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "337a2ac2-dcf7-4f22-9dc9-309d30d3eea6")
+	)
+	(fp_line
+		(start 2.675 0.7875)
+		(end 2.675 2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8980dff-c5f2-495f-985d-16ed24dbe604")
+	)
+	(fp_line
+		(start 2.675 2.4125)
+		(end 1.825 2.4125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dbec8f51-9b30-459c-9efc-9d881e8861ac")
+	)
+	(fp_arc
+		(start -2.662499 -0.787499)
+		(mid -2.174452 0.006251)
+		(end -2.6625 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca5a00eb-7087-4d4d-90da-53ca664e026c")
+	)
+	(fp_arc
+		(start 2.674999 0.787499)
+		(mid 2.186952 -0.006251)
+		(end 2.675 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61992e43-b333-438f-be76-8a3aab33c2d6")
+	)
+	(pad "1" smd rect
+		(at -2.45 0)
+		(size 1.5 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "62091a51-0d57-42ce-a95c-cc668abf8133")
+	)
+	(pad "2" smd rect
+		(at 2.45 0)
+		(size 1.5 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "dac2d462-d8fe-451f-8a3b-f3ec528d61cd")
+	)
+)
