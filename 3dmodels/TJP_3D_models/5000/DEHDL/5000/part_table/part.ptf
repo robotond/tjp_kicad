@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5000'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Keystone Electronics", "5000" (!) = "", "5000", "Other", "", "", "KEYSTONE - 5000 - TEST POINT, CONNECTOR, RED", "http://www.keyelco.com/product-pdf.cfm?p=1309"
+END_PART
+
+END.

@@ -1,0 +1,16 @@
+.5000 :1 ;KEYSTONE - 5000 - TEST POINT, CONNECTOR, RED
+"5000"
+*STM J
+*NGS
+*PLB 1="1"
+*MXP 1
+*DFN 5000
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Keystone Electronics)
+~!Manufacturer_Part_Number (5000)
+~!Link Datasheet (http://www.keyelco.com/product-pdf.cfm?p=1309)
+~!Height (-)
+~!3D_Model (5000)
+"5000"
+1.1!U 

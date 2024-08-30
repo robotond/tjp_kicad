@@ -1,0 +1,84 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "5000"
+   (description "KEYSTONE - 5000 - TEST POINT, CONNECTOR, RED")
+   (family "CON")
+   (package "5000")
+   (attribute "Datasheet Link" "http://www.keyelco.com/product-pdf.cfm?p=1309")
+   (attribute "Farnell Part Number" "")
+   (attribute "Farnell Price/Stock" "")
+   (attribute "Manufacturer_Name" "Keystone Electronics")
+   (attribute "Manufacturer_Part_Number" "5000")
+   (gate
+    (symbol "5000")
+    (pin "1" 1 PS)
+   )
+  )
+  (symbol "5000"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -100) (pt 200 -100) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "5000"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 1.27 0) (pt -1.27 0)
+     )
+    )
+   )
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 1.27 0) (pt -1.27 0)
+     )
+    )
+   )
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt 1.27 0) (pt -1.27 0)
+     )
+    )
+   )
+   (leg 1 (pt 0 0) (padstack 0))
+   (padstack 0
+    (hole 1.02)
+    (plated true)
+    (pad (layer TCOP) (round 1.6))
+    (pad (layer INNER) (round 1.6))
+    (pad (layer BCOP) (round 1.6))
+   )
+   (model "5000.stp"
+    (euler 90 0 0)
+    (offset 0 0 1.7100000381469727)
+   )
+  )
+ )
+)

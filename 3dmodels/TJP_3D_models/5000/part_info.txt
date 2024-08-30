@@ -1,0 +1,9 @@
+Manufacturer=Keystone Electronics
+PartNumber=5000
+PartCategory=Connector
+PackageCategory=Other
+PinCount=1
+Version=1.1
+Released=2017-10-10 13:16:08
+Downloaded=2024-08-29 19:52:45
+3D=Y
