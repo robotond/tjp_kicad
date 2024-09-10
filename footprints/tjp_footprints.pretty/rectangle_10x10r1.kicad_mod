@@ -1,0 +1,106 @@
+(footprint "rectangle_10x10r1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.1mm, no annular")
+	(tags "mounting hole 2.1mm no annular")
+	(property "Reference" "REF**"
+		(at 29.85625 0.4 0)
+		(layer "F.SilkS")
+		(uuid "9ad5b883-41ee-4948-8482-8f87542831ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "slot0x2"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(uuid "747ad85b-503b-4c26-b9eb-85f7a71e4c97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6d546fc-14e5-418f-ba56-16816b272efe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79155e4c-91db-4f31-bd32-6a3385a5cdef")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88a0e2ef-06c9-40b9-aee9-4b10868351f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "456ee925-1e50-4954-83ef-bf0f8a43aa4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -4.3 4.2 90)
+		(size 10 1.6)
+		(drill oval 10 1.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a8c7a682-8990-4d24-8275-a3db6757331e")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0)
+		(size 10 1.6)
+		(drill oval 10 1.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "99a17adb-c759-40f0-b509-14072c56ae2c")
+	)
+	(pad "" np_thru_hole oval
+		(at 0 8.4 180)
+		(size 10 1.6)
+		(drill oval 10 1.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fafed741-9c3a-4abc-921f-0f856dd89434")
+	)
+	(pad "" np_thru_hole oval
+		(at 4.3 4.2 90)
+		(size 10 1.6)
+		(drill oval 10 1.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "031e5aad-1767-470d-b89c-578be19eea4d")
+	)
+)
